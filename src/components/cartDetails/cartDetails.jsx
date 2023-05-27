@@ -17,7 +17,7 @@ const CartDetails = () => {
           return (
             <div key={index} className="relative group">
               <img src={item?.image} alt="Image" className="rounded-lg" />
-              <div className="bg-neutral rounded-lg py-4 mx-7 space-y-3 absolute lg:top-36 sm:top-20 top-36 shadow-xl group-hover:-translate-y-2 group-hover:scale-100 duration-500">
+              <div className="bg-neutral rounded-lg py-4 mx-7 space-y-3 absolute lg:top-28 sm:top-20 top-36 shadow-xl group-hover:-translate-y-2 group-hover:scale-100 duration-500">
                 <div className="px-6 py-3 space-y-2">
                   <AiOutlineStar className="text-[#F4C16C] text-xl" />
                   <h1 className="text-2xl text-gray-700 font-semibold capitalize">
